@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:g="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xml:lang="en" lang="en">
+<h:head>
+    <g:title>JSF 2.0 - Hello World</g:title>
+</h:head>
+<h:body>
+    <h3>SF 2.0 - Example of Hello World - hello.xhtml</h3>
+    <h:form>
+        <h:inputText value="#{helloBean.name}" validator="#{helloBean.validateText"></h:inputText>
+        <h:commandButton value="Welcome me" action="welcome"></h:commandButton>
+    </h:form>
+</h:body>
+</html>
